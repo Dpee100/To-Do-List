@@ -3,6 +3,8 @@ window.addEventListener('load', () => {
 	const input = document.querySelector("#new-task-input");
 	const list_el = document.querySelector("#tasks");
 
+
+
 	form.addEventListener('submit', (e) => {
 		e.preventDefault();
 
@@ -53,6 +55,8 @@ window.addEventListener('load', () => {
 				task_edit_el.innerText = "Edit";
 				task_input_el.setAttribute("readonly", "readonly");
 			}
+
+		
 		});
 
 		task_delete_el.addEventListener('click', (e) => {

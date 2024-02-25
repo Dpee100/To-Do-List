@@ -18,8 +18,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background: var(--dark);
-    color: #FFF;
+    background: url(image/list9.jpg);
 }
 
 header {
@@ -33,7 +32,7 @@ header {
 header h1 {
     font-size: 2.5rem;
     font-weight: 300;
-    color: var(--gray);
+    color: white;
     margin-bottom: 1rem;
 }
 
@@ -97,7 +96,7 @@ main {
 .task-list h2 {
     font-size: 1.5rem;
     font-weight: 300;
-    color: var(--gray);
+    color: white;
     margin-bottom: 1rem;
 }
 
